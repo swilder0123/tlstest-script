@@ -1,5 +1,11 @@
-# note: these commands were tested via cut-and-paste into the Powershell console
-# test connectivity from downlevel for storage connectivity
+# Usage notes:
+# These commands were tested via cut-and-paste into the Powershell console
+# For best results, copy the snippets into notepad and edit the accountName and rgName values
+#
+# PURPOSE
+# Test connectivity from downlevel for storage connectivity
+# REQUIREMENT
+# You need an active Azure login in order for this scripts to work
 
 # -------SNIP-------------
 
