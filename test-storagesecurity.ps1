@@ -1,14 +1,14 @@
-# Usage notes:
-# These commands were tested via cut-and-paste into the Powershell console
-# For best results, copy the snippets into notepad and edit the accountName and rgName values
-#
 # PURPOSE
 # Test connectivity from downlevel for storage connectivity
 # REQUIREMENT
 # You need an active Azure login in order for this scripts to work
-
+#
+# Usage notes:
+# These commands were tested via cut-and-paste into the Powershell console
+# For best results, copy the snippets into notepad and edit the accountName and rgName values
+#
 # -------SNIP-------------
-
+#
 # Set the TLS version used by the PowerShell client to TLS 1.1.
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls11;
 
